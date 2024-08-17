@@ -1,0 +1,39 @@
+/* the commented part is alos learning but i just dont want to interrup the code  */
+
+/* div{
+    height: 20px;
+    width: 50px;
+    background-color: pink;
+} */
+/* h1{
+    text-align: center;
+    background-color: pink;
+    height: 100px;
+    width: 150px;
+    border-style: dotted;
+    border-radius: 50%;
+    padding-top: 50px;
+}
+#ds{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+    bor
+} */
+#logo{
+    padding-right: 200px;
+    color: #ffae00;
+}
+#navbar{
+    height: 60px;
+    background-color: rgba(0,0,0,0.5);
+}
+a {
+    padding-right: 200px;
+    color: white;
+}
+button{
+    color: white;
+    background-color: #ffae00;
+}
