@@ -1,0 +1,48 @@
+/* h1{
+    color: green;
+}
+body {
+    background-color: #ffff00;
+} */
+ /* *{
+    color: pink;
+ } */
+ h1{
+    color: #ff0;
+ }
+ /* button{
+    color: #00ff00;
+ } */
+ #lkg{
+    color: #fffff4;
+ }
+ #box{
+    background-color: #00fff4;
+ }
+ #heading{
+    color: red;
+ }
+
+ button {
+   background-color:  green ;
+ }
+ p{
+    text-align: right;
+ }
+ #onr{
+    line-height: 1px;
+    font-size:50px;
+ }
+ #oop{
+    text-align: center;
+    text-transform: capitalize;
+ }
+ p {
+    font-family: 'Times New Roman', Times, serif;
+ }
+ #outer{
+    font-size: 25px;
+ }
+ #inner{
+    font-size: 10px;
+ }
