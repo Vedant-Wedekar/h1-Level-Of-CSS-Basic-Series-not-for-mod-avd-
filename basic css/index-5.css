@@ -1,0 +1,56 @@
+.rrr{
+    margin-right: 0px;
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+    /* transform: rotate(45deg); */
+}
+.rrr:hover{
+    transform: translate(200px);
+    transition-duration: 2s;
+    background-color: black;
+    transform: scaleX(7);
+  /*  */
+ transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}   
+.rrr:active{
+    transform: skew(90deg);
+    background-color: plum;
+    transition-timing-function: steps(10);
+    transition-delay: 2s;
+   
+}
+/* transistion-property: all ; 
+transition-duration: 2s;
+transition-timing-function:ease in ;
+transition-delay: 2s;
+
+shortcut method 
+transistion: all 2s ease-in 2s;  */
+#pop{
+    height: 100px;
+    width: 100px;
+    background-color: hsl(304, 100%, 50%);
+}
+#pop:hover{
+    transition-duration: 3s;
+}
+.loader{
+    border: 5px dotted white;
+    border-top: 10px solid rgb(81, 81, 81);
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: #fdfdfd;
+    animation : spin 0.3s ease-in  infinite;
+    /* animation-iteration-count: infinite; */
+}
+@keyframes spin{
+    from{
+        transform:rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
