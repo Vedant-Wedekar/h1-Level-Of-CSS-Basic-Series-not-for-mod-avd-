@@ -35,6 +35,9 @@ transistion: all 2s ease-in 2s;  */
 #pop:hover{
     transition-duration: 3s;
 }
+
+
+
 .loader{
     border: 5px dotted white;
     border-top: 10px solid rgb(81, 81, 81);
@@ -46,6 +49,9 @@ transistion: all 2s ease-in 2s;  */
     animation : spin 0.3s ease-in  infinite;
     /* animation-iteration-count: infinite; */
 }
+
+
+
 @keyframes spin{
     from{
         transform:rotate(0deg)
