@@ -52,6 +52,8 @@ transistion: all 2s ease-in 2s;  */
 
 
 
+
+
 @keyframes spin{
     from{
         transform:rotate(0deg)
